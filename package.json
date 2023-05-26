@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pretest": "npm run lint:css && npm run lint",
+    "pretest": "npm run lint:css && npm run lint && tsc --noEmit",
     "test": "npm run test:jest --",
     "posttest": "npm run format",
     "test:jest": "jest",
@@ -29,18 +29,21 @@
   },
   "homepage": "https://github.com/plume-LJ/husky--#readme",
   "devDependencies": {
+    "@types/ramda": "^0.29.2",
     "eslint": "^8.41.0",
     "jest": "^29.5.0",
     "prettier": "^2.8.8",
     "react-styleguidist": "^13.1.1",
     "stylelint": "^15.6.2",
     "stylelint-config-standard": "^33.0.0",
+    "typescript": "^5.0.4",
     "webpack": "^5.84.1"
   },
   "engines": {
     "node": ">=10"
   },
   "dependencies": {
+    "ramda": "^0.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
