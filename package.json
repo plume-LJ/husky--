@@ -12,7 +12,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "format": "prettier --loglevel warn --write \"**/*.{js,css,md}\"",
-    "lint": "eslint --cache --fix",
+    "lint": "eslint . --cache --fix",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "start": "styleguidist server",
