@@ -1,5 +1,7 @@
 # husky--
 
+[![Build Status](https://travis-ci.org/plume-LJ/husky--/husky--.svg)](https://travis-ci.org/plume-LJ/husky--/husky--)
+
 ...
 
 ## Changelog
