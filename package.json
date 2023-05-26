@@ -1,0 +1,26 @@
+{
+  "name": "husky--",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:jest --",
+    "test:jest": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plume-LJ/husky--.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plume-LJ/husky--/issues"
+  },
+  "homepage": "https://github.com/plume-LJ/husky--#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
