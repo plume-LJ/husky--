@@ -1,3 +1,1 @@
-module.exports = {
-	components: 'src/components/**/[A-Z]*.js',
-};
+export const components = "src/components/**/[A-Z]*.js";
